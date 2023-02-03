@@ -15,5 +15,11 @@ public class Persona {
     edad++;
     System.out.print(edad);
   }
+  
+  public void datosPersona() {
+    System.out.print(edad);
+    System.out.print(nombre);
+    System.out.print(apellidos);
+  }
 
 }
